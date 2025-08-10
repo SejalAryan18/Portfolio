@@ -1,7 +1,7 @@
 import { useRef } from "react";
-import Card from "../components/Card";
+import Card from "../components/Card.jsx";
 import { Globe } from "../components/globe.jsx";
-import CopyEmailButton from "../components/CopyEmailButton";
+import CopyEmailButton from "../components/CopyEmailButton.jsx";
 import { Frameworks } from "../components/FrameWorks.jsx";
 
 const About = () => {
