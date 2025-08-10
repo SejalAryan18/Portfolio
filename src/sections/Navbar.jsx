@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "motion/react";
-import { smoothScrollTo } from "../utils/smoothScroll";
+import { smoothScrollTo } from "../utils/smoothScroll.js";
 function Navigation({ onNavigate }) {
   const handleNavClick = (e, id) => {
     e.preventDefault();
