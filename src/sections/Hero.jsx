@@ -3,7 +3,7 @@ import { useMediaQuery } from "react-responsive";
 import { easing } from "maath";
 import { Suspense } from "react";
 import HeroText from "../components/HeroText.jsx";
-import ParallaxBackground from "../components/Parallaxbackground.jsx";
+import ParallaxBackground from "../components/ParallaxBackground.jsx";
 import { Astronaut } from "../components/Astronaut.jsx";
 import Loader from "../components/Loader.jsx";
 
