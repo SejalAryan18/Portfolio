@@ -6,7 +6,7 @@ import HeroText from "../components/HeroText.jsx";
 import ParallaxBackground from "../components/ParallaxBackground.jsx";
 import { Astronaut } from "../components/Astronaut.jsx";
 import Loader from "../components/Loader.jsx";
-
+import { Float } from "@react-three/drei";
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
   return (
